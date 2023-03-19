@@ -17,10 +17,18 @@ h1{
     text-align: center;
     font-weight: bolder;
 }
-a{
+h2{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+button{
     color: aliceblue;
-    text-decoration: none;
     font-weight: bold;
+    border-radius: 15%;
+    padding: 1%;
+    text-align: center;
+    margin-bottom:1%;
 }
 .links{
     display: flex;
@@ -30,13 +38,10 @@ a{
     text-decoration: none;
     width: 98%;
 }
-.Docs a {
+a {
     color: green;
     font-weight: normal;
-}
-.About a {
-    color: green;
-    font-weight: normal;
+    text-decoration: none;
 }
 .notes{
     display: flex;
@@ -46,13 +51,12 @@ a{
     margin-right: 1%;   
     width: 98%;
 }
-.content{
-    border:blue solid 2px;
+textarea{
+    border: blue solid 2px;
     width: 98%;
-    height:37%;
+    height: 37%;
     margin-left: 1%;
-    margin-right: 1%;
-    width: 98%;
+    background-color: #FAF4EC;
 }
 .button{
     display: flex;
@@ -65,29 +69,16 @@ footer{
     font-family: 'Montserrat',sans-serif;
     font-weight: bold;
     width: 98%;
-
 }
 .NewNotes{
     background-color: #375F68;
-    border: solid black;
-    border-radius: 15%;
-    padding: 1%;
 }
 .DarkTheme{
     background-color: #56536A;
-    border: solid black;
-    border-radius: 15%;
-    padding: 1%;
 }
 .Cancel{
     background-color: #9B332C;
-    border: solid black;
-    border-radius: 15%;
-    padding: 1%;
 }
 .Save{
     background-color: #375F68;
-    border: solid black;
-    border-radius: 15%;
-        padding: 1%;
 }
