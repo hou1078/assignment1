@@ -5,7 +5,7 @@ html, body {
 body{
     background-color: #F3E9DE;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 4fr;
 }
 aside{
     background-color: #FAF4EC;
@@ -82,3 +82,25 @@ footer{
 .Save{
     background-color: #375F68;
 }
+@media screen and (max-width:600px){
+    body{
+        background-color: #F3E9DE;
+        display: flex;
+        flex-direction: column;
+    }
+}
+aside {
+    position: static
+}
+.changetodark main{
+    background-color: #375F68;
+}
+.changetodark aside{
+    background-color: #56536A;
+}
+.changetodark textarea{
+    background-color: peru;
+}
+.hidden {
+    display: none;
+  }
