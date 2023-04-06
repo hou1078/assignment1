@@ -89,3 +89,15 @@ footer{
         flex-direction: column;
     }
 }
+aside {
+    position: static
+}
+.changetodark main{
+    background-color: #375F68;
+}
+.changetodark aside{
+    background-color: #56536A;
+}
+.changetodark textarea{
+    background-color: peru;
+}
